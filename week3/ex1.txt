@@ -1,0 +1,1 @@
+Address of c:-333997300Value of c:22Address of pointer pc:-333997300Content of pointer pc:22Address of pointer pc:-333997300Content of pointer pc:11Address of c:-333997300Value of c:2Process finished with exit code 0
