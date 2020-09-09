@@ -1,0 +1,1 @@
+OUTPUT OF THE PROGRAMlsCMakeCache.txt		Makefile		ex3CMakeFiles		cmake_install.cmake	ex3.cbppwd/Users/beanie/Desktop/projects/OS/week4/ex3/cmake-build-debugPstree is quite long(((
