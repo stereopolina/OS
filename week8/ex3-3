@@ -1,0 +1,52 @@
+Last login: Wed Oct  7 21:13:34 on ttys001
+beanie@MacBook-Pro-Polina ~ % cd /Users/beanie/Desktop/projects/OS/untitled    
+beanie@MacBook-Pro-Polina untitled % ./ex2.c &
+[1] 6070
+zsh: no such file or directory: ./ex2.c                                         
+[1]  + exit 127   ./ex2.c
+beanie@MacBook-Pro-Polina untitled % cd /Users/beanie/Desktop/projects/OS/week8
+beanie@MacBook-Pro-Polina week8 % ls
+ex1.png				ex3-2
+ex2.c				Вывод Терминала
+ex3
+beanie@MacBook-Pro-Polina week8 % ./ex2 &
+[1] 6072
+zsh: no such file or directory: ./ex2                                           
+[1]  + exit 127   ./ex2
+beanie@MacBook-Pro-Polina week8 % ./ex2.c &
+[1] 6073
+zsh: permission denied: ./ex2.c                                                 
+[1]  + exit 126   ./ex2.c
+beanie@MacBook-Pro-Polina week8 % gcc ex2.c -0 ex2
+clang: error: unknown argument: '-0'
+clang: error: no such file or directory: 'ex2'
+beanie@MacBook-Pro-Polina week8 % gcc e2.c -o ex2
+clang: error: no such file or directory: 'e2.c'
+clang: error: no input files
+beanie@MacBook-Pro-Polina week8 % gcc ex2.c -o ex2
+beanie@MacBook-Pro-Polina week8 % top
+
+Processes: 392 total, 2 running, 1 stuck, 389 sleeping, 2432 threads   21:16:56
+Load Avg: 2.26, 2.59, 2.46  CPU usage: 6.28% user, 3.50% sys, 90.20% idle
+SharedLibs: 207M resident, 49M data, 5244K linkedit.
+MemRegions: 142844 total, 1322M resident, 68M private, 495M shared.
+PhysMem: 8156M used (2086M wired), 34M unused.
+VM: 2338G vsize, 1993M framework vsize, 6727077(0) swapins, 7927679(0) swapouts.
+Networks: packets: 5931135/4247M in, 5347526/1462M out.
+Disks: 4123289/301G read, 5455506/78G written.
+
+PID   COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP PPID
+375   cloudd       53.1 25:48.68 8     3    315   45M+   4860K+ 24M-   375  1
+381   bird         5.2  01:40.87 2     1    197   13M    0B     6364K  381  1
+0     kernel_task  4.6  48:02.44 195/8 0    0     466M   0B     0B     0    0
+6088  top          3.6  00:01.04 1/1   0    25    5764K  0B     1036K  6088 6065
+3231  WhatsApp Hel 2.7  29:29.68 20    1    229   124M+  0B     112M-  3226 3226
+243   WindowServer 2.4  01:51:54 9     4    3231+ 708M   2688K  167M   243  1
+5893  com.apple.ap 1.5  00:07.39 6     4    539-  41M-   1212K- 13M-   5893 1
+1233  zoom.us      1.1  04:38:09 23    2    4751  310M   0B     272M   1233 1
+880   AIRobin      0.9  09:03.19 31    17   262   127M   0B     121M-  880  873
+3228  WhatsApp Hel 0.7  08:13.50 9     1    158   85M    0B     29M    3226 3226
+6087  mdworker_sha 0.7  00:00.08 4     1    50    5320K- 0B     616K-  6087 1
+5572  Terminal     0.5  00:37.19 9     4    332   50M-   6268K  13M    5572 1
+132   ss_conn_serv 0.4  08:02.26 6     0    41    720K   0B     632K   132  1
+164   hidd         0.3  07:33.01 7     2    398   5268K  0B     2420K  164  1

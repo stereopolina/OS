@@ -1,0 +1,1 @@
+Physical memory is a limited amount, it contains in a hardware and its amount is fixed. We can visually see and touch that time of memory if we open system unit case. Virtual memory we can not touch, it is reserved for some cases, it is mostly greater in size, than the actual memory. It is mostly organised by page adressing(or it can be segmented).

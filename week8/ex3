@@ -1,0 +1,48 @@
+Last login: Wed Oct  7 21:01:46 on ttys001
+beanie@MacBook-Pro-Polina ~ % top -i 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Processes: 390 total, 3 running, 387 sleeping, 2464 threads            21:13:06
+Load Avg: 3.19, 2.60, 2.40  CPU usage: 4.7% user, 3.96% sys, 91.95% idle
+SharedLibs: 206M resident, 27M data, 5284K linkedit.
+MemRegions: 142188 total, 2438M resident, 90M private, 671M shared.
+PhysMem: 8049M used (2135M wired), 141M unused.
+VM: 2425G vsize, 1993M framework vsize, 6684977(0) swapins, 7794730(0) swapouts.
+Networks: packets: 5918714/4230M in, 5332619/1461M out.
+Disks: 3996037/286G read, 5234761/75G written.
+
+PID   COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP PPID
+6047  top          11.5 00:01.90 1/1   0    25    5992K  0B     0B     6047 6043
+243   WindowServer 5.6  01:51:38 10    4    3333- 662M-  6160K  155M   243  1
+3231  WhatsApp Hel 5.3  29:20.73 20    1    229   119M+  0B     57M    3226 3226
+1233  zoom.us      4.3  04:38:00 23    2    4740  310M   0B     270M   1233 1
+5893  com.apple.ap 3.8  00:05.24 12    10   571   41M-   3212K- 12M-   5893 1
+5572  Terminal     2.5  00:29.48 12    7    348   48M    6256K  10M-   5572 1
+0     kernel_task  2.3  47:47.16 195/8 0    0     493M+  0B     0B     0    0
+538   Adobe Photos 2.0  15:09.20 104   4    930   1794M  0B     1538M  538  1
+6040  mdworker_sha 1.5  00:00.36 4     1    50    6676K- 0B     0B     6040 1
+1988  Google Chrom 1.5  05:30.23 33    1    798-  255M-  24K    162M   1988 1
+3228  WhatsApp Hel 1.5  08:10.99 9     1    158   85M    0B     28M    3226 3226
+873   Adobe Illust 1.4  07:20.67 61    23   511   397M   0B     371M   873  1
+164   hidd         1.3  07:29.37 8     3    400   5288K  0B     2384K  164  1
+452   Creative Clo 1.0  05:05.02 21    1    376   35M    0B     20M    452  1

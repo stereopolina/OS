@@ -1,0 +1,1 @@
+If we need the size of page in bits, then we need to multiply 8 (size of a page) by 1024. It will be 2^13(as 1024 is 2^10 and 8 is 2^3) The offset it the power of two, so it will be 13. To get the number of entries we need to raise 2 to the power of difference between the number of bits in virtual adresses and an offset. -> it is 2^(16-13) = 8The answer is 8.
