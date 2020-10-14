@@ -1,0 +1,1 @@
+If choose the same numbers, then hit/miss will be equal to 1, therefore it will be the greatest. And if we will choose increasing different numbers, then it will be coming to 0.
