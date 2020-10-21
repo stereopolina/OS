@@ -1,0 +1,8 @@
+total 16
+15189722 drwxr-xr-x@  7 beanie  staff   224 21 окт 20:45 .
+10200161 drwxr-xr-x@ 14 beanie  staff   448 21 окт 20:42 ..
+15190336 -rw-r--r--@  1 beanie  staff  6148 21 окт 20:42 .DS_Store
+15190339 -rw-r--r--   3 beanie  staff     0 21 окт 20:42 _ex1.txt
+15190339 -rw-r--r--   3 beanie  staff     0 21 окт 20:42 _ex1_1.txt
+15190339 -rw-r--r--   3 beanie  staff     0 21 окт 20:42 _ex1_2.txt
+15190436 -rw-r--r--   1 beanie  staff     0 21 окт 20:45 ex1.txt

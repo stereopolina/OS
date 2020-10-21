@@ -1,0 +1,24 @@
+Last login: Wed Oct 21 20:36:10 on ttys000
+beanie@MacBook-Pro-Polina ~ % cd /Users/beanie/Desktop/projects/OS/week10
+beanie@MacBook-Pro-Polina week10 % touch _ex1.txt
+beanie@MacBook-Pro-Polina week10 % ln _ex1.txt _ex1_1.txt
+beanie@MacBook-Pro-Polina week10 % ln _ex1.txt _ex1_2.txt
+beanie@MacBook-Pro-Polina week10 % ls -iall > ex1.txt
+beanie@MacBook-Pro-Polina week10 % ls
+_ex1.txt	_ex1_1.txt	_ex1_2.txt	ex1.txt
+beanie@MacBook-Pro-Polina week10 % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
